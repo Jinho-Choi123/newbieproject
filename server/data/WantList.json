@@ -2,24 +2,24 @@
     {
         "sports": "basketball",
         "date": "2020-05-11",
-        "start-time": "11:00",
-        "end-time": "13:00",
+        "starttime": "11:00",
+        "playtime": "13:00",
         "place": "Sports Complex",
         "comment": "just for fun!!"
     },
     {
         "sports": "baseball",
         "date": "2020-05-13",
-        "start-time": "14:00",
-        "end-time": "19:00",
+        "starttime": "14:00",
+        "playtime": "19:00",
         "place": "Soccer Field",
         "comment": "just for fun!!"
     },
     {
         "sports": "soccer",
         "date": "2020-07-02",
-        "start-time": "10:00",
-        "end-time": "13:00",
+        "starttime": "10:00",
+        "playtime": "13:00",
         "place": "Sports Complex",
         "comment": "just for fun!!"
     }
