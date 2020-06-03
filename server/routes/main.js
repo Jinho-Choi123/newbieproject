@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   console.log("In the router");
   res.status(200);
-  res.render('main', { title: 'MainPage' });
+  res.render('main');
 });
 
 module.exports = router;
