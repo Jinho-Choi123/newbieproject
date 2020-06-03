@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //Router
 app.use('/', mainRouter);
 app.use('/register', registerRouter);
-//app.use('/find', findRouter)
+app.use('/find', findRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
