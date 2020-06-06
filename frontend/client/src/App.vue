@@ -1,13 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <title>KAISPORTS</title>
+    <router-link to='/'>HOME</router-link>
+    <router-link to='/register'>REGISTER</router-link>
+    <router-link to='/find'>FIND</router-link>
+    <router-link to='/want'>WANT</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
 }
 </script>
 
